@@ -57,13 +57,13 @@ public class Main {
         }
         return -1;
     }
-
+    //转换下标为移动后的数组
     private int translate(int i, int n, int move) {
         if (i < move)
             return n - move + i;
         return i - move;
     }
-
+    //转换下标为未移动时的数组
     private int recover(int i, int n, int move) {
         if (n - i > move)
             return i + move;
