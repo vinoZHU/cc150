@@ -15,35 +15,35 @@ public class Main {
 
     public int countNumberOf2s(int n) {
         // write code here
-//        int count = 0;
-//        int low = 0;
-//        int high = 0;
-//        int cur = 0;
-//        int flag = 1;
-//        while(n/flag!=0)
-//        {
-//            low = n-(n/flag)*flag;
-//            cur = (n/flag)%10;
-//            high = n/(flag*10);
-//            if(cur == 1 || cur == 0)
-//                count += high*flag;
-//            if(cur == 2)
-//                count += high*flag + low +1;
-//            if(cur > 2)
-//                count += (high+1)*flag;
-//            flag *= 10;
-//        }
-//        return count;
+        int count = 0;
+        int low = 0;
+        int high = 0;
+        int cur = 0;
+        int flag = 1;
+        while(n/flag!=0)
+        {
+            low = n-(n/flag)*flag;
+            cur = (n/flag)%10;
+            high = n/(flag*10);
+            if(cur == 1 || cur == 0)
+                count += high*flag;
+            if(cur == 2)
+                count += high*flag + low +1;
+            if(cur > 2)
+                count += (high+1)*flag;
+            flag *= 10;
+        }
+        return count;
 
 //分别计算个位，十位……中2出现的次数，然后求和
-        if (n <= 1) return 0;
-
-        long res = 0, m;
-        for (m = 1;m <= n;m *= 10) {
-            long tmp1 = n / m, tmp2 = n % m;
-
-            res += (tmp1 + 7) / 10 * m + ((tmp1 % 10 == 2) ? (tmp2 + 1) : 0);
-        }
-        return (int)res;
+//        if (n <= 1) return 0;
+//
+//        long res = 0, m;
+//        for (m = 1;m <= n;m *= 10) {
+//            long tmp1 = n / m, tmp2 = n % m;
+//
+//            res += (tmp1 + 7) / 10 * m + ((tmp1 % 10 == 2) ? (tmp2 + 1) : 0);
+//        }
+//        return (int)res;
     }
 }
