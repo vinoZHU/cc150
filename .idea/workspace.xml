@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b15661-08ef-41e1-8df0-bc138284b098" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/niuke/AscentSequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/niuke/Exchange.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,18 +48,28 @@
       <file leaf-file-name="LongestSubstring.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/niuke/LongestSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="366">
+              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AscentSequence.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exchange.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Exchange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AscentSequence.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/niuke/AscentSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="46" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -83,16 +93,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
               <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gushi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Gushi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -156,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cc150/zuijiejindeshu/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/zhengshuzhuanhua/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/qiouerijiaohuan/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/zhaochuqueshidezhengshu/Main.java" />
@@ -207,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/main/java/niuke/FoldPaper.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/LongestSubstring.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/AscentSequence.java" />
+        <option value="$PROJECT_DIR$/src/main/java/niuke/Exchange.java" />
       </list>
     </option>
   </component>
@@ -951,12 +951,12 @@
       <workItem from="1500773585474" duration="12684000" />
       <workItem from="1500858418845" duration="6728000" />
       <workItem from="1500944613305" duration="3768000" />
-      <workItem from="1501119572049" duration="12641000" />
+      <workItem from="1501119572049" duration="14507000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="213726000" />
+    <option name="totallyTimeSpent" value="215592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -970,9 +970,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2019802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2019802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34356436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34356436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1682641" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1142,13 +1142,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="108" column="13" lean-forward="false" selection-start-line="108" selection-start-column="13" selection-end-line="108" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3896">
@@ -1523,6 +1516,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/niuke/AscentSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Huiwen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -1535,16 +1536,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/niuke/LongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        <state relative-caret-position="366">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/niuke/AscentSequence.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Exchange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="578">
+          <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding />
         </state>
       </provider>
