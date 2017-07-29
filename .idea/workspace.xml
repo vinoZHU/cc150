@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b15661-08ef-41e1-8df0-bc138284b098" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/niuke/MaxInnerRec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/niuke/Visit.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,19 +27,6 @@
               <caret line="39" column="64" lean-forward="false" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FoldPaper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/niuke/FoldPaper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="24" column="47" lean-forward="false" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding>
-                <element signature="e#1986#1987#0" expanded="true" />
-                <element signature="e#2036#2037#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,11 +99,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxInnerRec.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxInnerRec.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/niuke/MaxInnerRec.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="493">
+              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visit.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Visit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="55" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -160,7 +157,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cc150/panduanzhixianxiangjiao/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/jiafayunsuantidai/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/pinfengdezhixian/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/chuandianzuiduodezhixian/Main.java" />
@@ -211,6 +207,7 @@
         <option value="$PROJECT_DIR$/src/main/java/niuke/GrayCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/Bonus.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/MaxInnerRec.java" />
+        <option value="$PROJECT_DIR$/src/main/java/niuke/Visit.java" />
       </list>
     </option>
   </component>
@@ -229,8 +226,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -476,27 +473,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxInnerRec">
-    <configuration default="false" name="AscentSequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="niuke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="niuke.AscentSequence" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="xiaozhao" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Visit">
     <configuration default="false" name="Stock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -565,6 +542,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="niuke.MaxInnerRec" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="xiaozhao" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Visit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="niuke.Visit" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -882,19 +879,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.AscentSequence" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Stock" />
-      <item index="2" class="java.lang.String" itemvalue="Application.GoUpstairs" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GrayCode" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Stock" />
+      <item index="1" class="java.lang.String" itemvalue="Application.GoUpstairs" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GrayCode" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Visit" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
-        <item index="1" class="java.lang.String" itemvalue="Application.GrayCode" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GoUpstairs" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Stock" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AscentSequence" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Visit" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GrayCode" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GoUpstairs" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Stock" />
       </list>
     </recent_temporary>
   </component>
@@ -955,15 +952,15 @@
       <workItem from="1500773585474" duration="12684000" />
       <workItem from="1500858418845" duration="6728000" />
       <workItem from="1500944613305" duration="3768000" />
-      <workItem from="1501119572049" duration="26588000" />
+      <workItem from="1501119572049" duration="31167000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="227673000" />
+    <option name="totallyTimeSpent" value="232252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -974,17 +971,17 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2019802" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20136987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34356436" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47534245" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17518637" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2657512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36237624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36164382" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1148,8 +1145,14 @@
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/niuke/Visit.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="71" />
+      <option name="time" value="72" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1158,13 +1161,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/AbstractQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="65" column="20" lean-forward="false" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/RunnableScheduledFuture.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1571,8 +1567,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/niuke/MaxInnerRec.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Visit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="55" selection-end-column="26" />
           <folding />
         </state>
       </provider>
