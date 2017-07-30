@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1b15661-08ef-41e1-8df0-bc138284b098" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/niuke/MinCost.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/niuke/Mixture.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,26 +20,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Exchange.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Exchange.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Stock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GoUpstairs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/niuke/GoUpstairs.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -117,11 +97,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinCost.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinCost.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/niuke/MinCost.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
               <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mixture.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Mixture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="884" column="55" lean-forward="false" selection-start-line="884" selection-start-column="49" selection-end-line="884" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -155,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cc150/dikegeshu/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/shanglouti/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/jiqirenzoufangge/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/cc150/jiqirenzoufangge2/Main.java" />
@@ -206,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/main/java/niuke/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/MonoSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/niuke/MinCost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/niuke/Mixture.java" />
       </list>
     </option>
   </component>
@@ -557,7 +557,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../code_format/formatter-zenzet.xml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="Ex&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;Vector&#9;PSI&#9;JAVA://java.util.Vector&#10;Concu&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;String&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/String.java&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;Timer&#9;PSI&#9;JAVA://java.util.Timer&#10;Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Thread.java&#10;ArrayDe&#9;PSI&#9;JAVA://java.util.ArrayDeque&#10;bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;Cyclic&#9;PSI&#9;JAVA://java.util.concurrent.CyclicBarrier&#10;Coun&#9;PSI&#9;JAVA://java.util.concurrent.CountDownLatch&#10;LockS&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java&#10;Ree&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
+    <property name="SearchEverywhereHistoryKey" value="Thread&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Thread.java&#10;Ex&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java&#10;Vector&#9;PSI&#9;JAVA://java.util.Vector&#10;Concu&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;String&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/String.java&#10;Integer&#9;PSI&#9;JAVA://java.lang.Integer&#10;Timer&#9;PSI&#9;JAVA://java.util.Timer&#10;ArrayDe&#9;PSI&#9;JAVA://java.util.ArrayDeque&#10;bytebuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;Cyclic&#9;PSI&#9;JAVA://java.util.concurrent.CyclicBarrier&#10;Coun&#9;PSI&#9;JAVA://java.util.concurrent.CountDownLatch&#10;LockS&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/LockSupport.java&#10;Ree&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
@@ -577,27 +577,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinCost">
-    <configuration default="false" name="GrayCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="niuke.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="niuke.GrayCode" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="xiaozhao" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Mixture">
     <configuration default="false" name="MaxInnerRec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -666,6 +646,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="niuke.MinCost" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="xiaozhao" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Mixture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="niuke.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="niuke.Mixture" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -983,19 +983,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.GrayCode" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Visit" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Palindrome" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinCost" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Visit" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Palindrome" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinCost" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Mixture" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MinCost" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Palindrome" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Visit" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
-        <item index="4" class="java.lang.String" itemvalue="Application.GrayCode" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Mixture" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MinCost" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Palindrome" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Visit" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MaxInnerRec" />
       </list>
     </recent_temporary>
   </component>
@@ -1056,12 +1056,12 @@
       <workItem from="1500773585474" duration="12684000" />
       <workItem from="1500858418845" duration="6728000" />
       <workItem from="1500944613305" duration="3768000" />
-      <workItem from="1501119572049" duration="37763000" />
+      <workItem from="1501119572049" duration="41013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238848000" />
+    <option name="totallyTimeSpent" value="242098000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1268,7 +1268,7 @@
           <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="74" />
+      <option name="time" value="75" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1277,13 +1277,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledThreadPoolExecutor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4930">
-          <caret line="333" column="30" lean-forward="false" selection-start-line="333" selection-start-column="16" selection-end-line="333" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
@@ -1331,14 +1324,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="721">
           <caret line="1064" column="53" lean-forward="false" selection-start-line="1064" selection-start-column="53" selection-end-line="1064" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="2033" column="8" lean-forward="false" selection-start-line="2033" selection-start-column="8" selection-end-line="2033" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1696,6 +1681,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_102.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="884" column="55" lean-forward="false" selection-start-line="884" selection-start-column="49" selection-end-line="884" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/niuke/Mixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
           <folding />
         </state>
       </provider>
