@@ -3,6 +3,9 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
+        float a = 0x12345678;
+        long b = 012;
+        byte c= 127;
 
         ArrayList<Integer> _ids = new ArrayList<Integer>();
         ArrayList<Integer> _parents = new ArrayList<Integer>();
