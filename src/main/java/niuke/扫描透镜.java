@@ -18,60 +18,63 @@ import java.util.Scanner;
 public class 扫描透镜 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int m = sc.nextInt();
-        int k = sc.nextInt();
-        int[][] numbers = new int[n + 1][m + 1];
-        for (int i = 0; i < k; i++) {
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-            numbers[x][y]++;
-        }
-        int max = Integer.MIN_VALUE;
-        int firstI = 0;
-        int firstJ = 0;
-        for (int i = 1; i <= n - 2; i++) {
-            for (int j = 1; j <= m - 2; j++) {
-                int tmp = 0;
-                for (int p = i; p < i + 3; p++) {
-                    for (int t = j; t < j + 3; t++) {
-                        if (numbers[p][t] > 0)
-                            tmp++;
+        while (sc.hasNext()) {
+            int n = sc.nextInt();
+            int m = sc.nextInt();
+            int k = sc.nextInt();
+            int[][] numbers = new int[n + 1][m + 1];
+            for (int i = 0; i < k; i++) {
+                int x = sc.nextInt();
+                int y = sc.nextInt();
+                numbers[x][y]++;
+            }
+            int max = Integer.MIN_VALUE;
+            int firstI = 0;
+            int firstJ = 0;
+            for (int i = 1; i <= n - 2; i++) {
+                for (int j = 1; j <= m - 2; j++) {
+                    int tmp = 0;
+                    for (int p = i; p < i + 3; p++) {
+                        for (int t = j; t < j + 3; t++) {
+                            if (numbers[p][t] > 0)
+                                tmp++;
+                        }
+                    }
+
+                    int originMax = max;
+                    max = Math.max(max, tmp);
+                    if (max > originMax) {
+                        firstI = i;
+                        firstJ = j;
                     }
                 }
-
-                int originMax = max;
-                max = Math.max(max, tmp);
-                if (max > originMax) {
-                    firstI = i;
-                    firstJ = j;
-                }
             }
-        }
-        int count = max;
-        for (int i = firstI; i < Math.min(n - 1, firstI + 3); i++) {
-            for (int j = firstJ; j < Math.min(m - 1, firstJ + 3); j++) {
-                if (numbers[i][j] > 0) {
-                    numbers[i][j]--;
-                }
-
-            }
-        }
-        max = Integer.MIN_VALUE;
-        for (int i = 1; i <= n - 2; i++) {
-            for (int j = 1; j <= m - 2; j++) {
-                int tmp = 0;
-                for (int p = i; p < i + 3; p++) {
-                    for (int t = j; t < j + 3; t++) {
-                        if (numbers[p][t] > 0)
-                            tmp++;
+            int count = max;
+            for (int i = firstI; i < firstI + 3; i++) {
+                for (int j = firstJ; j < firstJ + 3; j++) {
+                    if (numbers[i][j] > 0) {
+                        numbers[i][j]--;
                     }
+
                 }
-                max = Math.max(max, tmp);
             }
+            max = Integer.MIN_VALUE;
+            for (int i = 1; i <= n - 2; i++) {
+                for (int j = 1; j <= m - 2; j++) {
+                    int tmp = 0;
+                    for (int p = i; p < i + 3; p++) {
+                        for (int t = j; t < j + 3; t++) {
+                            if (numbers[p][t] > 0)
+                                tmp++;
+                        }
+                    }
+                    max = Math.max(max, tmp);
+                }
+            }
+            count += max;
+            System.out.println(count);
         }
-        count += max;
-        System.out.println(count);
+
 
     }
 }
